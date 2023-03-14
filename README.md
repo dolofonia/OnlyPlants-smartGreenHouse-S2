@@ -2,4 +2,4 @@
  HAN-Project
 
 team:
-Mark de Gast, Emiel Visser, Daan Bourgonje, Quintin Meurs.
+Mark de Gast, Emiel Visser, Daan Bourgonje, Quintin Meurs, Joris Bol.
