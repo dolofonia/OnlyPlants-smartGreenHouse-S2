@@ -1,0 +1,723 @@
+03-07 22:02:42 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'win32'
+03-07 22:02:42 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
+03-07 22:02:42 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: (7.0.0)
+03-07 22:02:42 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.8
+
+03-07 22:02:42 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080)]
+03-07 22:02:42 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+03-07 22:02:42 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 20
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 13:Starting to archive 3D models
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J18
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R29
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRF640S.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRF640S.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q16
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R5
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: RV2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D11
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R24
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J21
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRF640S.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRF640S.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: RV3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D5
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J19
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R45
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R48
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R15
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J12
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J9
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R46
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R26
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q17
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R44
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R19
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q7
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D7
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q6
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IPD036N04LGATMA1.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IPD036N04LGATMA1.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D6
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R51
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R21
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R49
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J14
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-2_P5.08mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J5
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D10
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R8
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D15
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R6
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R11
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J7
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R23
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: F1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Blade_Mini_directSolder.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Blade_Mini_directSolder.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Blade_Mini_directSolder.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Blade_Mini_directSolder.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D14
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R27
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J16
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: U1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C5
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J8
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D12
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J22
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: G1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: F2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J17
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R22
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J20
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J15
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D16
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R47
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C6
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R16
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R13
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J23
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R30
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R28
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: H1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: F3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q19
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J6
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R7
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R10
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J11
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C7
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: RV1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R17
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: FRDM1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R9
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R50
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q18
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRLZ44NSTRLPBF.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D8
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\SS54.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\SS54.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: C3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: Q5
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRF640S.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: D:\KiCad\Custom parts\SamacSys_Parts.3dshapes\IRF640S.stp
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R25
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D13
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J13
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R14
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: J10
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: R31
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: D9
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 45:Trying to copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 60:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 108:Did not copy: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 112:Remapping: ${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.wrl
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP21
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: REF1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP39
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP43
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP4
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP42
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP37
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP20
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP36
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP47
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP33
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP5
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP8
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP29
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP12
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP19
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP11
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP35
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP17
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP25
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP28
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP24
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP6
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP32
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP9
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP44
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP46
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP30
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP45
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP22
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP40
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP41
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP26
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP31
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP18
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP7
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP27
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP13
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP10
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP23
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: REF2
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP38
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP5
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: JP7
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP6
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP16
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: REF3
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP34
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP14
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP15
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 34:Getting 3D models for footprint of: TP1
+03-07 22:02:52 com_github_MitjaNemec_Archive3DModels.archive_3d_models 123:Did not succeed to copy 3D models!
+('D4', '${KICAD6_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_SOD-323.wrl')
+('J18', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('R29', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J4', '${KICAD6_3DMODEL_DIR}\\TerminalBlock.3dshapes\\TerminalBlock_bornier-2_P5.08mm.wrl')
+('R5', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('RV2', '${KICAD6_3DMODEL_DIR}\\Potentiometer_THT.3dshapes\\Potentiometer_Bourns_3296W_Vertical.wrl')
+('D1', '${KICAD6_3DMODEL_DIR}\\LED_SMD.3dshapes\\LED_1206_3216Metric.wrl')
+('D11', '${KICAD6_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_2512_6332Metric.wrl')
+('R24', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('C2', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.wrl')
+('J21', '${KICAD6_3DMODEL_DIR}\\Connector_PinHeader_2.54mm.3dshapes\\PinHeader_1x06_P2.54mm_Vertical.wrl')
+('RV3', '${KICAD6_3DMODEL_DIR}\\Potentiometer_THT.3dshapes\\Potentiometer_Bourns_3296W_Vertical.wrl')
+('D5', '${KICAD6_3DMODEL_DIR}\\Package_TO_SOT_SMD.3dshapes\\SOT-23.wrl')
+('J19', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('R2', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R45', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R48', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('Q1', '${KICAD6_3DMODEL_DIR}\\Package_TO_SOT_SMD.3dshapes\\SOT-23.wrl')
+('R15', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J12', '${KICAD6_3DMODEL_DIR}\\TerminalBlock.3dshapes\\TerminalBlock_bornier-2_P5.08mm.wrl')
+('J9', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('R46', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R26', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('C4', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.wrl')
+('R44', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R19', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('D7', '${KICAD6_3DMODEL_DIR}\\LED_SMD.3dshapes\\LED_1206_3216Metric.wrl')
+('D6', '${KICAD6_3DMODEL_DIR}\\Package_TO_SOT_SMD.3dshapes\\SOT-23.wrl')
+('R51', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R21', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R49', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('D3', '${KICAD6_3DMODEL_DIR}\\LED_SMD.3dshapes\\LED_1206_3216Metric.wrl')
+('J14', '${KICAD6_3DMODEL_DIR}\\TerminalBlock.3dshapes\\TerminalBlock_bornier-2_P5.08mm.wrl')
+('J2', '${KICAD6_3DMODEL_DIR}\\Connector_IDC.3dshapes\\IDC-Header_2x05_P2.54mm_Vertical.wrl')
+('J5', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('D10', '${KICAD6_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_2512_6332Metric.wrl')
+('R4', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R8', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('D15', '${KICAD6_3DMODEL_DIR}\\LED_SMD.3dshapes\\LED_1206_3216Metric.wrl')
+('R6', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R11', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J7', '${KICAD6_3DMODEL_DIR}\\Connector_PinHeader_2.54mm.3dshapes\\PinHeader_1x03_P2.54mm_Vertical.wrl')
+('J1', '${KICAD6_3DMODEL_DIR}\\Connector_PinSocket_2.54mm.3dshapes\\PinSocket_1x06_P2.54mm_Vertical.wrl')
+('R23', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('F1', '${KICAD6_3DMODEL_DIR}\\Fuse.3dshapes\\Fuse_Blade_Mini_directSolder.wrl')
+('D2', '${KICAD6_3DMODEL_DIR}\\LED_SMD.3dshapes\\LED_1206_3216Metric.wrl')
+('D14', '${KICAD6_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_2512_6332Metric.wrl')
+('R27', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J16', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('C5', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.wrl')
+('J8', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl')
+('D12', '${KICAD6_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_2512_6332Metric.wrl')
+('C1', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.wrl')
+('J22', '${KICAD6_3DMODEL_DIR}\\Connector_PinHeader_2.54mm.3dshapes\\PinHeader_1x06_P2.54mm_Vertical.wrl')
+('F2', '${KICAD6_3DMODEL_DIR}\\Fuse.3dshapes\\Fuse_2920_7451Metric.wrl')
+('J17', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('R22', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J20', '${KICAD6_3DMODEL_DIR}\\Connector_PinHeader_2.54mm.3dshapes\\PinHeader_1x06_P2.54mm_Vertical.wrl')
+('J15', '${KICAD6_3DMODEL_DIR}\\Connector_IDC.3dshapes\\IDC-Header_2x05_P2.54mm_Vertical.wrl')
+('D16', '${KICAD6_3DMODEL_DIR}\\LED_SMD.3dshapes\\LED_1206_3216Metric.wrl')
+('R47', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('C6', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.wrl')
+('R16', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R13', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J23', '${KICAD6_3DMODEL_DIR}\\Connector_PinHeader_2.54mm.3dshapes\\PinHeader_1x06_P2.54mm_Vertical.wrl')
+('R30', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R28', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('F3', '${KICAD6_3DMODEL_DIR}\\Fuse.3dshapes\\Fuse_2920_7451Metric.wrl')
+('J6', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical.wrl')
+('R7', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R10', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J3', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('J11', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('C7', '${KICAD6_3DMODEL_DIR}\\Capacitor_SMD.3dshapes\\C_1206_3216Metric.wrl')
+('R3', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('RV1', '${KICAD6_3DMODEL_DIR}\\Potentiometer_THT.3dshapes\\Potentiometer_Bourns_3296W_Vertical.wrl')
+('R1', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R17', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R9', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('R50', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('C3', '${KICAD6_3DMODEL_DIR}\\Capacitor_THT.3dshapes\\CP_Radial_D10.0mm_P5.00mm.wrl')
+('R25', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('D13', '${KICAD6_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_2512_6332Metric.wrl')
+('J13', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical.wrl')
+('R14', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('J10', '${KICAD6_3DMODEL_DIR}\\Connector_JST.3dshapes\\JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl')
+('R31', '${KICAD6_3DMODEL_DIR}\\Resistor_SMD.3dshapes\\R_1206_3216Metric.wrl')
+('D9', '${KICAD6_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_2512_6332Metric.wrl')
