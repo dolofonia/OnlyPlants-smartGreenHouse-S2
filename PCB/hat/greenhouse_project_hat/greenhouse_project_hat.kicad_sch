@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z hat")
-    (date "13-03-2023")
-    (rev "v3.0")
+    (date "16-03-2023")
+    (rev "v4.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
   )
@@ -3602,7 +3602,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R39") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -3631,7 +3631,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R35") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3665,7 +3665,7 @@
   (symbol (lib_id "power:+5V") (at 340.36 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0947b71d-b614-47a6-ba9d-6c735ffaea44)
-    (property "Reference" "#PWR017" (at 340.36 27.94 0)
+    (property "Reference" "#PWR021" (at 340.36 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 340.36 20.32 0)
@@ -3681,7 +3681,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -3763,7 +3763,7 @@
           (reference "R2") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R2") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3800,7 +3800,7 @@
   (symbol (lib_id "power:+5V") (at 247.65 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19174d86-cd81-4222-b63c-dd94523a06b9)
-    (property "Reference" "#PWR086" (at 247.65 236.22 0)
+    (property "Reference" "#PWR011" (at 247.65 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 247.65 228.6 0)
@@ -3816,7 +3816,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3910,7 +3910,7 @@
       )
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3940,7 +3940,7 @@
       )
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -3997,7 +3997,7 @@
           (reference "R3") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R3") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4059,7 +4059,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R40") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4176,7 +4176,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R37") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4224,7 +4224,7 @@
   (symbol (lib_name "GNDREF_1") (lib_id "power:GNDREF") (at 238.76 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4befe425-ae9b-46dc-be8c-5ca99792e7b1)
-    (property "Reference" "#PWR08" (at 238.76 30.48 0)
+    (property "Reference" "#PWR09" (at 238.76 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 238.76 29.21 0)
@@ -4240,7 +4240,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -4326,7 +4326,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R44") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4381,7 +4381,7 @@
       )
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4415,7 +4415,7 @@
   (symbol (lib_name "GNDREF_4") (lib_id "power:GNDREF") (at 215.9 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71f0c8d0-f70e-4d67-adff-5d3fd13afb9f)
-    (property "Reference" "#PWR085" (at 215.9 280.67 0)
+    (property "Reference" "#PWR08" (at 215.9 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 215.9 279.4 0)
@@ -4431,7 +4431,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4460,7 +4460,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R36") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4518,7 +4518,7 @@
           (reference "C7") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "C9") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4527,7 +4527,7 @@
   (symbol (lib_name "GNDREF_4") (lib_id "power:GNDREF") (at 259.08 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91ce575d-c0e3-4130-aed5-1649c4e762b8)
-    (property "Reference" "#PWR088" (at 259.08 243.84 0)
+    (property "Reference" "#PWR013" (at 259.08 243.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 259.08 242.57 0)
@@ -4543,7 +4543,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4552,7 +4552,7 @@
   (symbol (lib_name "GNDREF_3") (lib_id "power:GNDREF") (at 337.82 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9527ca33-868c-47ff-b9ff-e5e0ad587435)
-    (property "Reference" "#PWR016" (at 337.82 48.26 0)
+    (property "Reference" "#PWR020" (at 337.82 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 337.82 46.99 0)
@@ -4568,7 +4568,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4646,6 +4646,9 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/74hct365d652/nexperia" (at 104.14 261.62 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
+    (property "Purpose:" "" (at 80.01 241.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7eb0922b-1d25-40f5-bdc1-e8490af35081))
     (pin "10" (uuid 9071ddcd-5e97-486a-a59f-b4c98946eff4))
     (pin "11" (uuid b2f5ca16-16ac-4e0a-b25c-218545ccf3ae))
@@ -4674,7 +4677,7 @@
   (symbol (lib_name "GNDREF_4") (lib_id "power:GNDREF") (at 252.73 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b316c82-352d-4aee-be0f-1faffdb2e056)
-    (property "Reference" "#PWR087" (at 252.73 280.67 0)
+    (property "Reference" "#PWR012" (at 252.73 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 252.73 279.4 0)
@@ -4690,7 +4693,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4699,7 +4702,7 @@
   (symbol (lib_name "GNDREF_2") (lib_id "power:GNDREF") (at 264.16 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d94a238-6dc5-40cc-8107-5d2a2ea5f237)
-    (property "Reference" "#PWR011" (at 264.16 44.45 0)
+    (property "Reference" "#PWR015" (at 264.16 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 264.16 43.18 0)
@@ -4715,7 +4718,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -4771,7 +4774,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4808,7 +4811,7 @@
   (symbol (lib_name "GNDREF_1") (lib_id "power:GNDREF") (at 264.16 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9e58e9c-0c22-4a7e-9502-f3fd8926c305)
-    (property "Reference" "#PWR010" (at 264.16 30.48 0)
+    (property "Reference" "#PWR014" (at 264.16 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 264.16 29.21 0)
@@ -4824,7 +4827,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4959,7 +4962,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R34") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -5103,7 +5106,7 @@
   (symbol (lib_name "GNDREF_1") (lib_id "power:GNDREF") (at 238.76 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcb8466d-838d-4634-92ae-9ed708901144)
-    (property "Reference" "#PWR09" (at 238.76 44.45 0)
+    (property "Reference" "#PWR010" (at 238.76 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 238.76 43.18 0)
@@ -5119,7 +5122,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -5201,7 +5204,7 @@
           (reference "#PWR020") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5255,7 +5258,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R38") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5264,7 +5267,7 @@
   (symbol (lib_name "GNDREF_4") (lib_id "power:GNDREF") (at 270.51 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f335cfed-99bf-4e26-b4ce-911ecef1164b)
-    (property "Reference" "#PWR012" (at 270.51 125.73 0)
+    (property "Reference" "#PWR016" (at 270.51 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 270.51 124.46 0)
@@ -5280,7 +5283,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5364,7 +5367,7 @@
           (reference "R25") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639"
-          (reference "R41") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
