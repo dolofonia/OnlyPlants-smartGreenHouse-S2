@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z hat")
-    (date "16-03-2023")
-    (rev "v4.0")
+    (date "18-03-2023")
+    (rev "v5.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
   )
@@ -3688,7 +3688,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 238.76 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d40cd06-1f60-4cd1-a25c-910fbd8636d7)
     (property "Reference" "H1" (at 241.3 19.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3713,7 +3713,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 309.88 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0f160388-9dce-4023-89f7-2fb377b79e1c)
     (property "Reference" "TP1" (at 309.88 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3770,7 +3770,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 320.04 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 13dba8a2-f7aa-4d49-bb10-cf933fa3b4fc)
     (property "Reference" "TP1" (at 320.04 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3947,7 +3947,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 304.8 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 286f41dd-520f-4e25-b386-4a34a078da6c)
     (property "Reference" "TP1" (at 304.8 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4004,7 +4004,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 388.62 60.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 345e4e17-eb8f-4ea2-8ad0-f84d7c3302a5)
     (property "Reference" "JP1" (at 388.62 55.88 0)
       (effects (font (size 1.27 1.27)))
@@ -4247,7 +4247,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 299.72 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 51c2ba8a-14f3-4f83-84c4-5d4b9ef83405)
     (property "Reference" "TP1" (at 299.72 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4575,7 +4575,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 345.44 60.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99ca9841-2e5b-43ec-bacc-6039a2ad3659)
     (property "Reference" "JP1" (at 345.44 55.88 0)
       (effects (font (size 1.27 1.27)))
@@ -4725,7 +4725,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 307.34 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a75007a7-c10b-4df4-9678-8aaacf06bbff)
     (property "Reference" "TP1" (at 307.34 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4781,7 +4781,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 314.96 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b2c096c1-7ec8-4ddb-acbe-b52e6f8470a6)
     (property "Reference" "TP1" (at 314.96 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4834,7 +4834,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 264.16 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c15de1a4-dcf8-4fa9-990f-a1631cfd2727)
     (property "Reference" "H3" (at 266.7 19.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4859,7 +4859,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 302.26 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c4d79c32-be23-41fc-813a-ae6dbce5d2f4)
     (property "Reference" "TP1" (at 302.26 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4887,7 +4887,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 317.5 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c7f54197-9647-48d2-abc5-47ff41797376)
     (property "Reference" "TP1" (at 317.5 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4969,7 +4969,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 312.42 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d2f248fe-8d4c-4465-aa2d-d557cec184be)
     (property "Reference" "TP1" (at 312.42 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4997,7 +4997,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 297.18 41.91 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d7e6b42f-2c94-4451-bd40-013e60b43189)
     (property "Reference" "TP1" (at 297.18 52.07 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5054,7 +5054,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 238.76 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc112abf-c1f5-4fef-bd46-3d5ffacc0626)
     (property "Reference" "H2" (at 241.3 33.655 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5290,7 +5290,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Socket") (at 359.41 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7fd2cc9-c31c-411f-a0eb-aa62de63ef44)
     (property "Reference" "J2" (at 360.68 31.115 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5320,7 +5320,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 264.16 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f82dc5f8-cb25-40a4-b887-51e9e3629b01)
     (property "Reference" "H4" (at 266.7 33.655 0)
       (effects (font (size 1.27 1.27)) (justify left))

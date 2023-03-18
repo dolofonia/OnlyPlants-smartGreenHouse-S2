@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z hat")
-    (date "16-03-2023")
-    (rev "v4.0")
+    (date "18-03-2023")
+    (rev "v5.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
   )
@@ -1220,7 +1220,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 55.88 30.48 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 01775d85-9a36-4464-9833-28d39b6123a2)
     (property "Reference" "JP4" (at 55.88 25.4 0)
       (effects (font (size 1.27 1.27)))
@@ -1247,7 +1247,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 35.56 143.51 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14eccd71-0b4a-4b57-b97d-741aafd75895)
     (property "Reference" "TP1" (at 32.258 138.43 90)
       (effects (font (size 1.27 1.27)))
@@ -1357,7 +1357,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 123.19 111.76 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 261f0c75-f3ca-4b51-8a5d-36d06d03d2b1)
     (property "Reference" "JP7" (at 123.19 106.68 0)
       (effects (font (size 1.27 1.27)))
@@ -1519,7 +1519,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 101.6 142.24 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40394e21-67e7-4285-8e22-5c94d6df03fb)
     (property "Reference" "TP1" (at 98.298 137.16 90)
       (effects (font (size 1.27 1.27)))
@@ -1635,7 +1635,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 52.07 40.64 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45e74e5b-a4fa-4183-b25e-7eec80356957)
     (property "Reference" "TP1" (at 48.768 35.56 90)
       (effects (font (size 1.27 1.27)))
@@ -1720,7 +1720,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 34.29 60.96 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ec2adf2-50e4-4c88-9a05-0bc8303154ca)
     (property "Reference" "TP1" (at 30.988 55.88 90)
       (effects (font (size 1.27 1.27)))
@@ -1779,7 +1779,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 121.92 30.48 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 8877f495-0d6f-4afe-a62e-4d2bd579ea42)
     (property "Reference" "JP6" (at 121.92 25.4 0)
       (effects (font (size 1.27 1.27)))
@@ -1863,7 +1863,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 100.33 59.69 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ddd5337-2e3a-40a1-a9c7-90cd06cb3c81)
     (property "Reference" "TP1" (at 97.028 54.61 90)
       (effects (font (size 1.27 1.27)))
@@ -1922,7 +1922,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 57.15 111.76 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a907e55d-2adf-4289-85ea-1786253db5b3)
     (property "Reference" "JP5" (at 57.15 106.68 0)
       (effects (font (size 1.27 1.27)))
@@ -2113,7 +2113,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 118.11 40.64 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cfc1b84f-455b-4d29-8222-7a244ccddee0)
     (property "Reference" "TP1" (at 114.3 35.56 90)
       (effects (font (size 1.27 1.27)))
@@ -2418,7 +2418,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 54.61 121.92 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6c962cf-3305-47fc-a618-e3017adbc60f)
     (property "Reference" "TP1" (at 51.308 116.84 90)
       (effects (font (size 1.27 1.27)))
@@ -2446,7 +2446,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 120.65 121.92 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebf43ce7-dc8c-45b8-b9d5-9f61a65c25d4)
     (property "Reference" "TP1" (at 117.348 116.84 90)
       (effects (font (size 1.27 1.27)))

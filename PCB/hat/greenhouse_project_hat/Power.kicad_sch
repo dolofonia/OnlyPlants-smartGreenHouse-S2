@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z hat")
-    (date "16-03-2023")
-    (rev "v4.0")
+    (date "18-03-2023")
+    (rev "v5.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
   )
@@ -2111,7 +2111,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 106.68 39.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b804b59-daf9-4f15-a55a-eb8e01c4240d)
     (property "Reference" "TP12" (at 109.22 35.433 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2161,7 +2161,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 81.28 92.71 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0e1f8cdd-83e8-4923-acf8-d24abdaf4716)
     (property "Reference" "TP11" (at 74.93 87.63 90)
       (effects (font (size 1.27 1.27)))
@@ -2592,7 +2592,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 215.9 113.03 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dd876bd-1297-472a-972c-97512fbbf435)
     (property "Reference" "J5" (at 214.63 109.22 90)
       (effects (font (size 1.27 1.27)))
@@ -2851,7 +2851,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 246.38 113.03 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9753a670-3683-4dfe-80a7-b70a59e85edd)
     (property "Reference" "J7" (at 245.11 109.22 90)
       (effects (font (size 1.27 1.27)))
@@ -3216,7 +3216,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 215.9 132.08 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c885f337-08c9-49b1-8510-3079efb6ed55)
     (property "Reference" "J6" (at 214.63 128.27 90)
       (effects (font (size 1.27 1.27)))
@@ -3246,7 +3246,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 246.38 133.35 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf4b0611-b897-4981-a9e9-c97cf9839f68)
     (property "Reference" "J8" (at 245.11 129.54 90)
       (effects (font (size 1.27 1.27)))
