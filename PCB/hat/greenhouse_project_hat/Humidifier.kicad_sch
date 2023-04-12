@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z hat")
-    (date "18-03-2023")
-    (rev "v5.0")
+    (date "16-03-2023")
+    (rev "v4.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
   )
@@ -651,7 +651,7 @@
   (symbol (lib_id "power:+5V") (at 107.95 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03a132c1-6b2d-40b6-b263-3448928eca91)
-    (property "Reference" "#PWR089" (at 107.95 81.28 0)
+    (property "Reference" "#PWR048" (at 107.95 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 107.95 73.66 0)
@@ -667,7 +667,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -676,7 +676,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Socket") (at 133.35 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04e761cb-4846-4322-8909-95dd89e1b2a3)
-    (property "Reference" "J25" (at 139.7 87.63 0)
+    (property "Reference" "J9" (at 139.7 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x03_Socket" (at 124.46 90.17 0)
@@ -694,7 +694,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "J25") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -735,7 +735,7 @@
   (symbol (lib_id "power:+5V") (at 121.92 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21adcc80-a83f-4d1a-8612-53ee2ca4150d)
-    (property "Reference" "#PWR048" (at 121.92 81.28 0)
+    (property "Reference" "#PWR049" (at 121.92 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 121.92 73.66 0)
@@ -751,7 +751,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -760,7 +760,7 @@
   (symbol (lib_id "power:+5V") (at 184.15 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 264c14c8-6333-4952-9a35-07eed6b0e367)
-    (property "Reference" "#PWR051" (at 184.15 87.63 0)
+    (property "Reference" "#PWR053" (at 184.15 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 184.15 80.01 0)
@@ -776,7 +776,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -808,7 +808,7 @@
           (reference "R36") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "R41") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -839,7 +839,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -848,7 +848,7 @@
   (symbol (lib_id "power:GNDREF") (at 167.64 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f22323b-2dca-4a04-9d2c-39ecaf8ee27c)
-    (property "Reference" "#PWR050" (at 167.64 104.14 0)
+    (property "Reference" "#PWR052" (at 167.64 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 167.64 102.87 0)
@@ -864,7 +864,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -895,14 +895,14 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 121.92 95.25 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b44c2229-1581-4687-883e-ddcd88747e70)
     (property "Reference" "TP1" (at 115.57 90.17 90)
       (effects (font (size 1.27 1.27)))
@@ -944,7 +944,7 @@
     (property "Value" "DMN6040SVT-7" (at 121.92 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT95P280X90-6N" (at 130.81 106.68 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P280X90-6N" (at 130.81 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SVT.pdf" (at 130.81 109.22 0)

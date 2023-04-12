@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z hat")
-    (date "18-03-2023")
-    (rev "v5.0")
+    (date "16-03-2023")
+    (rev "v4.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
   )
@@ -1220,7 +1220,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 55.88 30.48 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 01775d85-9a36-4464-9833-28d39b6123a2)
     (property "Reference" "JP4" (at 55.88 25.4 0)
       (effects (font (size 1.27 1.27)))
@@ -1247,7 +1247,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 35.56 143.51 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14eccd71-0b4a-4b57-b97d-741aafd75895)
     (property "Reference" "TP1" (at 32.258 138.43 90)
       (effects (font (size 1.27 1.27)))
@@ -1268,7 +1268,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP35") (unit 1)
+          (reference "TP36") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/14bbbbaf-372e-4e9f-862e-9e90fad91d90"
           (reference "TP20") (unit 1)
@@ -1280,13 +1280,13 @@
   (symbol (lib_id "SamacSys_Parts:RS2MA-13-F") (at 105.41 125.73 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1aa0a84b-56eb-46de-84cb-45810132c56b)
-    (property "Reference" "D14" (at 109.22 132.715 90)
+    (property "Reference" "D12" (at 109.22 132.715 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RS2MA-13-F" (at 109.22 135.255 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DIOM5226X230N" (at 105.41 137.16 0)
+    (property "Footprint" "SamacSys_Parts:DIOM5226X230N" (at 105.41 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds15004.pdf" (at 102.87 137.16 0)
@@ -1321,7 +1321,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "D14") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -1350,14 +1350,14 @@
           (reference "R?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "R37") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 123.19 111.76 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 261f0c75-f3ca-4b51-8a5d-36d06d03d2b1)
     (property "Reference" "JP7" (at 123.19 106.68 0)
       (effects (font (size 1.27 1.27)))
@@ -1386,13 +1386,13 @@
   (symbol (lib_id "SamacSys_Parts:RS2MA-13-F") (at 38.1 44.45 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27b4df4f-0663-4437-a174-875986e65d0b)
-    (property "Reference" "D11" (at 41.91 51.435 90)
+    (property "Reference" "D9" (at 41.91 51.435 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RS2MA-13-F" (at 41.91 53.975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DIOM5226X230N" (at 38.1 55.88 0)
+    (property "Footprint" "SamacSys_Parts:DIOM5226X230N" (at 38.1 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds15004.pdf" (at 35.56 55.88 0)
@@ -1427,7 +1427,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "D11") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1455,7 +1455,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1512,14 +1512,14 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 101.6 142.24 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40394e21-67e7-4285-8e22-5c94d6df03fb)
     (property "Reference" "TP1" (at 98.298 137.16 90)
       (effects (font (size 1.27 1.27)))
@@ -1540,7 +1540,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP39") (unit 1)
+          (reference "TP40") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/14bbbbaf-372e-4e9f-862e-9e90fad91d90"
           (reference "TP20") (unit 1)
@@ -1571,7 +1571,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -1586,7 +1586,7 @@
     (property "Value" "DMN6040SVT-7" (at 123.19 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT95P280X90-6N" (at 132.08 148.59 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P280X90-6N" (at 132.08 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SVT.pdf" (at 132.08 151.13 0)
@@ -1635,7 +1635,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 52.07 40.64 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45e74e5b-a4fa-4183-b25e-7eec80356957)
     (property "Reference" "TP1" (at 48.768 35.56 90)
       (effects (font (size 1.27 1.27)))
@@ -1656,7 +1656,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP36") (unit 1)
+          (reference "TP37") (unit 1)
         )
       )
     )
@@ -1684,7 +1684,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1720,7 +1720,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 34.29 60.96 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ec2adf2-50e4-4c88-9a05-0bc8303154ca)
     (property "Reference" "TP1" (at 30.988 55.88 90)
       (effects (font (size 1.27 1.27)))
@@ -1741,7 +1741,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP34") (unit 1)
+          (reference "TP35") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/14bbbbaf-372e-4e9f-862e-9e90fad91d90"
           (reference "TP20") (unit 1)
@@ -1772,14 +1772,14 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 121.92 30.48 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 8877f495-0d6f-4afe-a62e-4d2bd579ea42)
     (property "Reference" "JP6" (at 121.92 25.4 0)
       (effects (font (size 1.27 1.27)))
@@ -1814,7 +1814,7 @@
     (property "Value" "DMN6040SVT-7" (at 57.15 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT95P280X90-6N" (at 66.04 149.86 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P280X90-6N" (at 66.04 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SVT.pdf" (at 66.04 152.4 0)
@@ -1863,7 +1863,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 100.33 59.69 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ddd5337-2e3a-40a1-a9c7-90cd06cb3c81)
     (property "Reference" "TP1" (at 97.028 54.61 90)
       (effects (font (size 1.27 1.27)))
@@ -1884,7 +1884,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP38") (unit 1)
+          (reference "TP39") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/14bbbbaf-372e-4e9f-862e-9e90fad91d90"
           (reference "TP20") (unit 1)
@@ -1915,14 +1915,14 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Jumper:Jumper_3_Bridged12") (at 57.15 111.76 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid a907e55d-2adf-4289-85ea-1786253db5b3)
     (property "Reference" "JP5" (at 57.15 106.68 0)
       (effects (font (size 1.27 1.27)))
@@ -1971,7 +1971,7 @@
           (reference "R?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "R38") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -1999,7 +1999,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -2027,7 +2027,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -2036,13 +2036,13 @@
   (symbol (lib_id "SamacSys_Parts:RS2MA-13-F") (at 104.14 44.45 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbb0025e-2655-4a49-9d2b-b7bce7da151e)
-    (property "Reference" "D13" (at 107.95 51.435 90)
+    (property "Reference" "D11" (at 107.95 51.435 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RS2MA-13-F" (at 107.95 53.975 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DIOM5226X230N" (at 104.14 55.88 0)
+    (property "Footprint" "SamacSys_Parts:DIOM5226X230N" (at 104.14 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds15004.pdf" (at 101.6 55.88 0)
@@ -2077,7 +2077,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "D13") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -2106,14 +2106,14 @@
           (reference "R?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "R40") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 118.11 40.64 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid cfc1b84f-455b-4d29-8222-7a244ccddee0)
     (property "Reference" "TP1" (at 114.3 35.56 90)
       (effects (font (size 1.27 1.27)))
@@ -2134,7 +2134,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP40") (unit 1)
+          (reference "TP41") (unit 1)
         )
       )
     )
@@ -2162,7 +2162,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -2190,7 +2190,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -2234,7 +2234,7 @@
     (property "Value" "DMN6040SVT-7" (at 55.88 67.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT95P280X90-6N" (at 64.77 68.58 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P280X90-6N" (at 64.77 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SVT.pdf" (at 64.77 71.12 0)
@@ -2305,7 +2305,7 @@
           (reference "R?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "R39") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -2333,7 +2333,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -2342,13 +2342,13 @@
   (symbol (lib_id "SamacSys_Parts:RS2MA-13-F") (at 39.37 127 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd0b211f-51bd-4220-bd4b-0e9562f216f0)
-    (property "Reference" "D12" (at 43.18 133.985 90)
+    (property "Reference" "D10" (at 43.18 133.985 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RS2MA-13-F" (at 43.18 136.525 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DIOM5226X230N" (at 39.37 138.43 0)
+    (property "Footprint" "SamacSys_Parts:DIOM5226X230N" (at 39.37 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds15004.pdf" (at 36.83 138.43 0)
@@ -2383,7 +2383,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "D12") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -2411,14 +2411,14 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 54.61 121.92 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6c962cf-3305-47fc-a618-e3017adbc60f)
     (property "Reference" "TP1" (at 51.308 116.84 90)
       (effects (font (size 1.27 1.27)))
@@ -2439,14 +2439,14 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP37") (unit 1)
+          (reference "TP38") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 120.65 121.92 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebf43ce7-dc8c-45b8-b9d5-9f61a65c25d4)
     (property "Reference" "TP1" (at 117.348 116.84 90)
       (effects (font (size 1.27 1.27)))
@@ -2467,7 +2467,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/e2900781-abf4-4fb9-86c9-4dafe4df5f42"
-          (reference "TP41") (unit 1)
+          (reference "TP42") (unit 1)
         )
       )
     )
@@ -2482,7 +2482,7 @@
     (property "Value" "DMN6040SVT-7" (at 121.92 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT95P280X90-6N" (at 130.81 69.85 0)
+    (property "Footprint" "SamacSys_Parts:SOT95P280X90-6N" (at 130.81 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN6040SVT.pdf" (at 130.81 72.39 0)

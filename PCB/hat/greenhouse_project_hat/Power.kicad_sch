@@ -6,8 +6,8 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z hat")
-    (date "18-03-2023")
-    (rev "v5.0")
+    (date "16-03-2023")
+    (rev "v4.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
   )
@@ -2111,7 +2111,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 106.68 39.37 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b804b59-daf9-4f15-a55a-eb8e01c4240d)
     (property "Reference" "TP12" (at 109.22 35.433 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2161,7 +2161,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 81.28 92.71 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e1f8cdd-83e8-4923-acf8-d24abdaf4716)
     (property "Reference" "TP11" (at 74.93 87.63 90)
       (effects (font (size 1.27 1.27)))
@@ -2297,7 +2297,7 @@
     (property "Value" "Fuse" (at 36.83 36.83 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_Blade_Mini_directSolder" (at 36.83 41.148 90)
+    (property "Footprint" "Fuse:Fuseholder_Blade_Mini_Keystone_3568" (at 36.83 41.148 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 36.83 39.37 0)
@@ -2392,7 +2392,7 @@
   (symbol (lib_id "power:GNDREF") (at 81.28 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ef8d37f-870e-4a35-9574-9ea43748f09b)
-    (property "Reference" "#PWR036" (at 81.28 118.11 0)
+    (property "Reference" "#PWR035" (at 81.28 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GNDREF" (at 81.28 116.84 0)
@@ -2408,7 +2408,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/a0f75671-40a3-4d36-8542-9696f27b0c1b"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -2448,7 +2448,7 @@
     (property "Value" "RZF030P01" (at 198.12 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "2SB1730" (at 201.93 26.67 0)
+    (property "Footprint" "SamacSys_Parts:2SB1730" (at 201.93 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rzf030p01tl-e.pdf" (at 204.47 26.67 0)
@@ -2592,7 +2592,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 215.9 113.03 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5dd876bd-1297-472a-972c-97512fbbf435)
     (property "Reference" "J5" (at 214.63 109.22 90)
       (effects (font (size 1.27 1.27)))
@@ -2777,7 +2777,7 @@
   (symbol (lib_id "power:+5V") (at 85.09 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80095aff-b264-4a4c-a0b8-3dd41ce7eece)
-    (property "Reference" "#PWR035" (at 85.09 95.25 0)
+    (property "Reference" "#PWR036" (at 85.09 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 85.09 87.63 0)
@@ -2793,7 +2793,7 @@
     (instances
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/a0f75671-40a3-4d36-8542-9696f27b0c1b"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -2851,7 +2851,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 246.38 113.03 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9753a670-3683-4dfe-80a7-b70a59e85edd)
     (property "Reference" "J7" (at 245.11 109.22 90)
       (effects (font (size 1.27 1.27)))
@@ -3216,7 +3216,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 215.9 132.08 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c885f337-08c9-49b1-8510-3079efb6ed55)
     (property "Reference" "J6" (at 214.63 128.27 90)
       (effects (font (size 1.27 1.27)))
@@ -3246,7 +3246,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 246.38 133.35 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf4b0611-b897-4981-a9e9-c97cf9839f68)
     (property "Reference" "J8" (at 245.11 129.54 90)
       (effects (font (size 1.27 1.27)))
