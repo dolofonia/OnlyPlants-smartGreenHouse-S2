@@ -1,0 +1,8 @@
+node-red
+3.0.2
+node-red-contrib-ui-svg
+2.3.1
+node-red-dashboard
+3.5.0
+node-red-node-serialport
+1.0.4

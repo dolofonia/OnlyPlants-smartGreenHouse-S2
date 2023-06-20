@@ -6,7 +6,7 @@
 
   (title_block
     (title "Greenhouse project FRDM-KL25Z waterlevel sensor")
-    (date "5-7-2023")
+    (date "2023-04-16")
     (rev "V2.0")
     (company "OnlyPlants")
     (comment 1 "Author: Emiel Visser")
@@ -726,8 +726,6 @@
     (uuid cc4fb0ed-9446-4674-9669-e8ec3619744e)
   )
 
-  (no_connect (at 226.06 135.89) (uuid 4b51d010-9678-415c-89dd-e7631cb3d3de))
-
   (wire (pts (xy 146.05 97.79) (xy 146.05 99.06))
     (stroke (width 0) (type default))
     (uuid 0756ab41-49a5-42d9-8c26-0020a524096a)
@@ -916,6 +914,10 @@
     (stroke (width 0) (type default))
     (uuid 9ccd546b-bf64-4fdc-9410-a93db0073f5a)
   )
+  (wire (pts (xy 218.44 135.89) (xy 226.06 135.89))
+    (stroke (width 0) (type default))
+    (uuid 9eda89be-0d19-4884-8fa7-3f6483bbd9e7)
+  )
   (wire (pts (xy 71.12 99.06) (xy 55.88 99.06))
     (stroke (width 0) (type default))
     (uuid a2582c69-9c44-43fc-ae0c-2269e3be6d3a)
@@ -1012,6 +1014,10 @@
     (stroke (width 0) (type default))
     (uuid f5c44bfb-61ad-4362-bf6a-1a103618bdee)
   )
+  (wire (pts (xy 218.44 137.16) (xy 218.44 135.89))
+    (stroke (width 0) (type default))
+    (uuid f5ed7bc5-a011-44d4-9b2c-8c7c7530f1e9)
+  )
   (wire (pts (xy 146.05 49.53) (xy 146.05 50.8))
     (stroke (width 0) (type default))
     (uuid f63e9d25-7504-4138-bd57-28e26ee9f95d)
@@ -1035,7 +1041,7 @@
     (fill (type none))
     (uuid b2cd519f-e987-401b-8597-ba059b32dea8)
   )
-  (rectangle (start 204.47 104.14) (end 240.03 139.7)
+  (rectangle (start 204.47 104.14) (end 240.03 143.51)
     (stroke (width 0) (type dash))
     (fill (type none))
     (uuid de1e4a02-89aa-46b4-b8c5-15c09fa8f61d)
@@ -1637,6 +1643,39 @@
       (project "greenhouse_project_hat"
         (path "/b27d5451-0104-43eb-badd-cec4b3afa639/14bbbbaf-372e-4e9f-862e-9e90fad91d90"
           (reference "Q13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDREF") (at 218.44 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4dd586a3-bc45-4f60-8238-658c5ab375bc)
+    (property "Reference" "#PWR020" (at 218.44 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDREF" (at 218.44 142.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 218.44 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 218.44 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6692ffc6-0b3c-4f73-9efc-3653c5774cd1))
+    (instances
+      (project "greenhouse_project_watersensor"
+        (path "/85ace96d-2557-4ab4-a42b-9b438c6d3f6f"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+      (project "greenhouse_project_hat"
+        (path "/b27d5451-0104-43eb-badd-cec4b3afa639/4d8eb8bd-7658-4ee1-a9bd-e11f7f5e7e34"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/b27d5451-0104-43eb-badd-cec4b3afa639/14bbbbaf-372e-4e9f-862e-9e90fad91d90"
+          (reference "#PWR068") (unit 1)
         )
       )
     )

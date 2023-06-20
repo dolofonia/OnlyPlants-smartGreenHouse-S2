@@ -454,7 +454,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "greenhouse_project_hat.dsn",
-      "step": "",
+      "step": "greenhouse_project_hat.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -1,0 +1,392 @@
+Dependencies for Project 'greenhouse_onlyplants', Target 'CMSIS-DAP': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\scr\main.c)(0x645DF35B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/main.o -MD)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (switches\switches.h)(0x6448EDF3)
+I (uart0\uart0.h)(0x64477A3B)
+I (queue\queue.h)(0x641AFD0E)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\switches\switches.c)(0x6448EDF3)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/switches.o -MD)
+I (switches\switches.h)(0x6448EDF3)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (uart0\uart0.h)(0x64477A3B)
+I (queue\queue.h)(0x641AFD0E)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\switches\switches.h)(0x6448EDF3)()
+F (.\queue\queue.c)(0x643FD0EE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/queue.o -MD)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (queue\queue.h)(0x641AFD0E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+F (.\queue\queue.h)(0x641AFD0E)()
+F (.\uart0\uart0.c)(0x64467472)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/uart0.o -MD)
+I (uart0\uart0.h)(0x64477A3B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (queue\queue.h)(0x641AFD0E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (switches\switches.h)(0x6448EDF3)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\uart0\uart0.h)(0x64477A3B)()
+F (.\datanodered\datanodered.c)(0x645A3201)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/datanodered.o -MD)
+I (datanodered\datanodered.h)(0x645A378E)
+I (uart0\uart0.h)(0x64477A3B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (queue\queue.h)(0x641AFD0E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (switches\switches.h)(0x6448EDF3)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\datanodered\datanodered.h)(0x645A378E)()
+F (.\fan\fan.c)(0x6439450B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/fan.o -MD)
+I (fan\fan.h)(0x641DEFBC)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+F (.\fan\fan.h)(0x641DEFBC)()
+F (.\LEDS\LEDS.c)(0x64390F9A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/leds.o -MD)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+F (.\LEDS\LEDS.h)(0x64390F9A)()
+F (.\HEATBED\HEATBED.c)(0x64479C97)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/heatbed.o -MD)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (switches\switches.h)(0x6448EDF3)
+I (uart0\uart0.h)(0x64477A3B)
+I (queue\queue.h)(0x641AFD0E)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\HEATBED\HEATBED.h)(0x64477A3B)()
+F (.\battery\battery.c)(0x644677D1)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/battery.o -MD)
+I (battery\battery.h)(0x64467327)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+F (.\battery\battery.h)(0x64467327)()
+F (.\pump\pump.c)(0x6447777D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/pump.o -MD)
+I (pump\pump.h)(0x64477A3B)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (switches\switches.h)(0x6448EDF3)
+I (uart0\uart0.h)(0x64477A3B)
+I (queue\queue.h)(0x641AFD0E)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\pump\pump.h)(0x64477A3B)()
+F (.\controll\controll.c)(0x645DF5BA)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/controll.o -MD)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (switches\switches.h)(0x6448EDF3)
+I (uart0\uart0.h)(0x64477A3B)
+I (queue\queue.h)(0x641AFD0E)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\controll\controll.h)(0x645DF120)()
+F (.\bsp\menu\menu.c)(0x645B736D)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/menu.o -MD)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+I (switches\switches.h)(0x6448EDF3)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (controll\controll.h)(0x645DF120)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (uart0\uart0.h)(0x64477A3B)
+I (queue\queue.h)(0x641AFD0E)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+F (.\bsp\menu\menu.h)(0x645B7230)()
+F (.\bsp\delay\delay.c)(0x641AE284)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/delay.o -MD)
+I (bsp\delay\delay.h)(0x641AE284)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+F (.\bsp\delay\delay.h)(0x641AE284)()
+F (.\bsp\oled\bitmaps.c)(0x6447CF49)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/bitmaps.o -MD)
+F (.\bsp\oled\bitmaps.h)(0x6447CF2B)()
+F (.\bsp\oled\fonts.c)(0x641AE284)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/fonts.o -MD)
+F (.\bsp\oled\fonts.h)(0x641AE284)()
+F (.\bsp\oled\i2c1.c)(0x645E009F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/i2c1.o -MD)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585BDE7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (bsp\oled\I2C1.h)(0x645E009F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+F (.\bsp\oled\i2c1.h)(0x645E009F)()
+F (.\bsp\oled\ssd1306.c)(0x645E009F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/ssd1306.o -MD)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\delay\delay.h)(0x641AE284)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+F (.\bsp\oled\ssd1306.h)(0x645DFF0D)()
+F (.\bsp\bsp.h)(0x643FB3C0)()
+F (.\aht21b\aht21b.c)(0x645E00C9)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/aht21b.o -MD)
+I (aht21b\aht21b.h)(0x645DFCA8)
+I (I2C1\i2c0.h)(0x645E009F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+I (controll\controll.h)(0x645DF120)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60356A3A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60356A44)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60356A40)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60356A40)
+I (switches\switches.h)(0x6448EDF3)
+I (uart0\uart0.h)(0x64477A3B)
+I (queue\queue.h)(0x641AFD0E)
+I (datanodered\datanodered.h)(0x645A378E)
+I (fan\fan.h)(0x641DEFBC)
+I (LEDS\LEDS.h)(0x64390F9A)
+I (HEATBED\HEATBED.h)(0x64477A3B)
+I (battery\battery.h)(0x64467327)
+I (pump\pump.h)(0x64477A3B)
+I (bsp\bsp.h)(0x643FB3C0)
+I (bsp\delay\delay.h)(0x641AE284)
+I (bsp\oled\ssd1306.h)(0x645DFF0D)
+I (bsp\oled\i2c1.h)(0x645E009F)
+I (bsp\oled\fonts.h)(0x641AE284)
+I (bsp\oled\bitmaps.h)(0x6447CF2B)
+I (bsp\menu\menu.h)(0x645B7230)
+F (.\aht21b\aht21b.h)(0x645DFCA8)()
+F (.\I2C1\i2c0.c)(0x645E009F)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/i2c0.o -MD)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585BDE7A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+I (I2C1\I2C0.h)(0x645E009F)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x60356A3A)
+F (.\I2C1\i2c0.h)(0x645E009F)()
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x643537CF)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"MKL25Z128xxx4 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_mkl25z4.o)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x643537FF)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./scr -I ./switches -I ./uart0 -I ./queue -I ./datanodered -I ./fan -I ./LEDS -I ./HEATBED -I ./battery -I ./pump -I ./controll -I ./bsp/delay -I ./bsp/docs -I ./bsp/menu -I ./bsp/oled -I ./bsp/switches -I ./bsp -I ./I2C1 -I ./aht21b -Wno-gnu-binary-literal -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-declaration-after-statement-I./RTE/Device/MKL25Z128xxx4-I./RTE/_CMSIS-DAP-IC:/Users/New/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/New/AppData/Local/Arm/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include-D__UVISION_VERSION="536" -D_RTE_ -DMKL25Z128xxx4 -D_RTE_ -DCLOCK_SETUP="1"-o ./objects/system_mkl25z4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60356A40)
+I (C:\Users\New\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585BDE7A)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm0plus.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\New\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D44B52)
+I (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x56447F0A)()

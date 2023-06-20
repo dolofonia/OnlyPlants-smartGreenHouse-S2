@@ -1,0 +1,11 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\mistmodule.o"
+".\objects\queue.o"
+".\objects\uart0.o"
+".\objects\startup_mkl25z4.o"
+".\objects\system_mkl25z4.o"
+--library_type=microlib --strict --scatter ".\Objects\leeg_test.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\leeg_test.map" -o .\Objects\leeg_test.axf

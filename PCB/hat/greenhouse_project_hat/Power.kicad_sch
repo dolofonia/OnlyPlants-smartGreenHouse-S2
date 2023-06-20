@@ -2881,7 +2881,7 @@
   )
 
   (symbol (lib_id "Transistor_FET:AO3401A") (at 259.08 33.02 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bfe054b-d404-492d-80c4-087388be0d7d)
     (property "Reference" "Q2" (at 259.08 24.13 90)
       (effects (font (size 1.27 1.27)))
